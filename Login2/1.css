@@ -1,0 +1,74 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner {
+    height: 350px;
+    background: url(Resource/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu li {
+    float: left;
+    margin-right: 30px;
+}
+
+#Loginform {
+    margin-top: 170px;
+    margin-left: 600px;
+    height: 500px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#Loginform p {
+    text-align: center;
+}
+
+#Loginform {
+    margin: 150px auto;
+    background: #ffffff;
+}
+
+#p1 {
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+#username,
+#password,
+#password2 {
+    margin-top: auto;
+    height: 30px;
+    width: 200px;
+    text-indent: 30px;
+}
+
+#submit {
+    margin-top: auto;
+    height: 30px;
+    width: 200px;
+}
+
+#username {
+    margin-top: 0px;
+    background: url(Resource/人像.png) no-repeat 2px;
+    background-size: 10%;
+}
+
+#password {
+    background: url(Resource/密码.svg) no-repeat 2px;
+    background-size: 10%;
+}
+
+#password2 {
+    background: url(Resource/密码.svg) no-repeat 2px;
+    background-size: 10%;
+}
