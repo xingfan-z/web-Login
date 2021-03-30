@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/1.css">
+    <Script src="../JS/1.js"></Script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="head">
+        <div id="banner"></div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="">首页</a></li>
+                <li>
+                    <a href="">简介</a></li>
+                <li>
+                    <a href="">资料</a></li>
+                <li>
+                    <a href="">资料</a></li>
+                <li>
+                    <a href="">反馈</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="div1">
+        <form id="Loginform" method="GET" action="http://127.0.0.1:8080/week5/servlet/LoginController">
+            <p id="p1">欢迎登录</p>
+            <p><img src="" alt=""><input type="text" placeholder="请输入手机号/邮箱" id="username"></p>
+            <p id="usernameHint">
+                <font></font>
+            </p>
+            <p><input type="password" placeholder="请输入8~18位密码" id="password"></p>
+            <p id="passwordHint">
+                <font></font>
+            </p>
+            <p><input type="password" placeholder="请再次输入密码" id="password2"></p>
+            <p id="password2Hint">
+                <font></font>
+            </p>
+            <p><img src="" alt=""><input type="text" placeholder="请输入验证码" id="authcode"></p>
+            <p><input type="submit" value="登录" id="submit" onclick="check();"></p>
+        </form>
+    </div>
+</body>
+
+</html>
